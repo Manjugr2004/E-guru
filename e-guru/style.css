@@ -1,3 +1,43 @@
 *{
     margin: 0;
+    font-family: Arial;
+    background-color: #ffffff;
+}
+
+.navbar {
+    height: 60px;  
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.nav-logo {
+    display: inline block;
+    display: flex;
+
+}
+.logo{
+    background-image: url(assests/logo.png);
+    background-size: cover;
+    height: 2rem;
+    width: 2rem;
+}
+
+
+.nav-name {
+    font-size: 1.5rem;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.nav-ops p {
+    display: inline;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.nav-ops {
+    font-size: 0.85rem;
+    font-weight: 200;
 }
